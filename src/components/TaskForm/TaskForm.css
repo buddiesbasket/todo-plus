@@ -1,0 +1,32 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header > form {
+  width: 50%;
+}
+
+.task-form-bottom-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-status{
+  min-width: 100px;
+}
+
+.task-submit {
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 13px;
+  margin-left: 10px;
+  background-color: #6457f9;
+  color: #fff;
+  height: 36px;
+  min-width: 120px;
+}
